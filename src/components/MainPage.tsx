@@ -3,9 +3,9 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Search, Users, Calendar, MessageSquare } from 'lucide-react'
 
-export default function Home() {
+export default function MainPage() {
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100">
+    <div className="min-h-screen bg-neutral-900 text-gray-100">
       <header className="border-b border-gray-800">
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-blue-400">Study Group Finder</h1>
@@ -33,17 +33,17 @@ export default function Home() {
         </section>
 
         <section className="grid md:grid-cols-3 gap-8 mb-12">
-          <div className="bg-gray-800 p-6 rounded-lg">
+          <div className="bg-neutral-800 p-6 rounded-lg">
             <Users className="w-12 h-12 text-blue-400 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Find Your Group</h3>
             <p className="text-gray-400">Join study groups that match your courses and schedule.</p>
           </div>
-          <div className="bg-gray-800 p-6 rounded-lg">
+          <div className="bg-neutral-800 p-6 rounded-lg">
             <Calendar className="w-12 h-12 text-blue-400 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Schedule Sessions</h3>
             <p className="text-gray-400">Easily plan and organize study sessions with your group.</p>
           </div>
-          <div className="bg-gray-800 p-6 rounded-lg">
+          <div className="bg-neutral-800 p-6 rounded-lg">
             <MessageSquare className="w-12 h-12 text-blue-400 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Real-time Chat</h3>
             <p className="text-gray-400">Communicate with your study buddies in real-time.</p>
