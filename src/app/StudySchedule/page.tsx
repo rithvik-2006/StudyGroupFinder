@@ -13,7 +13,7 @@ export default function StudyScheduler() {
   const [duration, setDuration] = useState('60')
 
   const handleScheduleSession = () => {
-    // Here you would typically send this data to your backend
+    
     console.log('Scheduled session:', { date, time, duration })
     // You could also update some local state to show the scheduled session
   }
